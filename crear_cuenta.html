@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Crear Cuenta</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100 login-crearcuenta">
+        <div class="form-container2 text-center p-4 shadow">
+
+            <h2 class="mb-4">Crear Cuenta</h2>
+
+            <form onsubmit="crearCuenta(event)">
+                <div class="mb-3 text-start">
+                    <label class="form-label">Nombre de usuario</label>
+                    <input type="text" class="form-control" placeholder="Ej: Stev123" required>
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label">Correo electrónico</label>
+                    <input type="gmail" class="form-control" placeholder="Ej: usuario@gmail.com" required>
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" placeholder="*********" required>
+                </div>
+
+                <button type="submit" class="btn btn-minecraft w-100 mt-3">Crear Cuenta</button>
+            </form>
+
+            <a href="index.html" class="d-block mt-4 link-volver">Volver al inicio</a>
+        </div>
+    </div>
+
+    <script>
+        function crearCuenta(event) {
+            event.preventDefault();
+            alert("Cuenta creada con éxito. Ahora inicia sesión.");
+            window.location.href = "iniciar_sesion.html";
+        }
+    </script>
+
+</body>
+</html>

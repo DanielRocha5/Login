@@ -1,0 +1,135 @@
+body {
+    background-color: #000000;
+    font-family: "Press Start 2P";
+}
+
+.logo {
+    width: 350px;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+
+#carouselExampleCaptions {
+    max-width: 1500px;
+    margin: auto;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 800px;
+    object-fit: cover;
+    margin-top: 20px;
+
+}
+
+.btn-outline-primary {
+    color: rgb(255, 255, 255);
+    border-color: #000000;
+    margin-top: 15px;
+    width: 170px;
+    height: 55px;
+    font-size: 25px;
+}
+
+
+.btn-outline-primary:hover,
+.btn-check:checked+.btn-outline-primary {
+    background-color: #034b09;
+    color: rgb(255, 255, 255);
+    border-color: #054d17;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.carousel-caption h5 {
+    font-size: 35px;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+}
+
+.container-text-center {
+    margin-top: 55px;
+}
+
+.espacio {
+    margin: 0 -27px;
+}
+
+.img-small {
+    width: 300px;
+}
+
+
+
+
+
+.login-iniciarsesion{
+.form-container {
+    background: white;
+    border-radius: 12px;
+    width: 350px;
+}
+.btn-minecraft {
+    background-color: #03ff89;
+    border: none;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #2ecc71; 
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #27ae60; 
+}
+.form-control{
+    border-radius: 4px;
+    border-color: rgb(0, 0, 0);
+}
+
+}
+
+
+
+.login-crearcuenta{
+.form-container2 {
+    background: white;
+    border-radius: 12px;
+    width: 350px;
+}
+
+.btn-minecraft {
+    background-color: #03ff89;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-minecraft:hover {
+    background-color: #0f3522;
+}
+
+.link-volver {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-volver:hover {
+    text-decoration: underline;
+}
+.form-control{
+    border-radius: 4px;
+    border-color: rgb(0, 0, 0);
+
+}
+}
