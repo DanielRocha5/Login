@@ -72,12 +72,12 @@ h1 {
 
 
 
-.login-iniciarsesion{
-.form-container {
+.login-iniciarsesion .form-container {
     background: white;
     border-radius: 12px;
     width: 350px;
 }
+
 .btn-minecraft {
     background-color: #03ff89;
     border: none;
@@ -92,29 +92,30 @@ h1 {
 .login-btn:hover {
     background-color: #27ae60; 
 }
-.form-control{
+
+.login-iniciarsesion .form-control {
     border-radius: 4px;
     border-color: rgb(0, 0, 0);
 }
 
-}
 
 
 
-.login-crearcuenta{
-.form-container2 {
+
+
+.login-crearcuenta .form-container2 {
     background: white;
     border-radius: 12px;
     width: 350px;
 }
 
-.btn-minecraft {
+.login-crearcuenta .btn-minecraft {
     background-color: #03ff89;
     border: none;
     font-weight: bold;
 }
 
-.btn-minecraft:hover {
+.login-crearcuenta .btn-minecraft:hover {
     background-color: #0f3522;
 }
 
@@ -127,9 +128,8 @@ h1 {
 .link-volver:hover {
     text-decoration: underline;
 }
-.form-control{
+
+.login-crearcuenta .form-control {
     border-radius: 4px;
     border-color: rgb(0, 0, 0);
-
-}
 }
